@@ -1,8 +1,88 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+
+/*=============== IMPORT ICONS ===============*/
+@import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
+
+/* =============== COLORS =============== */
+:root{
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --purple: #5f0f40;
+  --red: #9A031E;
+  --light-orange: #FB8B24;
+  --orange: #E36414;
+  --green: #0F4C5C;
+
 }
 
-a {
-  color: #00B7FF;
+/* =============== NAV=============== */
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.navbar{
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.navbar-brand, li{
+  width: max-content;
+  display: inline;
+}
+
+.brand-name{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px white;
+}
+
+.fa-bars, .fa-broadcast-tower{
+  color: var(--white);
+}
+
+.fa-broadcast-tower{
+  font-size: 40px;
+  padding-top: 0;
+}
+
+.navbar-nav li{
+  width: max-content;
+  padding: 10px;
+  display: inline;
+}
+
+.navbar-nav a{
+  color: var(--white);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 0 0 2px;
+}
+
+.navbar-nav a:hover, a:active{
+  color: var(--green);
+  background-color: var(--white);
+}
+
+.btns{
+  margin-inline-start: 30%;
+}
+
+.btn{
+  color: var(--white);
+  margin-inline-start: 15px;
+  padding: 5px 15px 5px 15px;
+}
+
+.btn-login{
+  background-color: var(--orange);
+}
+
+.btn-signin{
+  background-color: var(--light-orange);
 }

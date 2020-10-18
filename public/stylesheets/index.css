@@ -1,0 +1,9 @@
+@import "style.css";
+
+.logIn-btn{
+    color: var(--pink);
+}
+
+.signIn-btn{
+    color: var(--pink);
+}
