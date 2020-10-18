@@ -1,9 +1,57 @@
 @import "style.css";
 
-.logIn-btn{
-    color: var(--pink);
-}
+/*=============== BODY ===============*/
 
-.signIn-btn{
-    color: var(--pink);
-}
+.btn-start{
+    background-color: var(--purple);
+  }
+  
+  .carousel{
+    margin: 3%;
+  }
+  
+  .carousel-item{
+    width: 100% !important;
+    height: auto;
+  }
+  
+  .vert .carousel-item-next.carousel-item-left,
+  .vert .carousel-item-prev.carousel-item-right {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .vert .carousel-item-next,
+  .vert .active.carousel-item-right {
+      -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100% 0);
+  }
+  
+  .vert .carousel-item-prev,
+  .vert .active.carousel-item-left {
+  -webkit-transform: translate3d(0,-100%, 0);
+          transform: translate3d(0,-100%, 0);
+  }
+  
+  .description{
+    margin: 3% 5% 3% 3%;
+  }
+  
+  .description h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  
+  .description p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-top: 3%;
+  }
+  
+  .description button{
+    text-align: center;
+    margin-inline-start: 40%;
+  }
