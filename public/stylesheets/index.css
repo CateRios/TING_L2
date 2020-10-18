@@ -14,6 +14,33 @@
     width: 100% !important;
     height: auto;
   }
+
+  .carousel-content {
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    bottom: 30%;
+    left: 35%;
+    z-index: 20;
+    color: var(--white);
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: var(--orange);
+  }
+
+  .subtitle{
+    font-style: italic;
+    left: 30%;
+    bottom: 20%;
+    position: absolute;
+    width: fit-content;
+    color: var(--white);
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: var(--orange);
+  }
+
+  .carousel-indicators{
+    visibility: hidden;
+  }
   
   .vert .carousel-item-next.carousel-item-left,
   .vert .carousel-item-prev.carousel-item-right {
