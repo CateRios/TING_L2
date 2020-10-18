@@ -70,7 +70,7 @@
 }
 
 .btns{
-  margin-inline-start: 30%;
+  margin-inline-start: 10%;
 }
 
 .btn{
@@ -85,4 +85,35 @@
 
 .btn-signin{
   background-color: var(--light-orange);
+}
+
+.btn-start{
+  background-color: var(--purple);
+}
+
+.carousel{
+  margin: 3%;
+}
+
+.carousel-item{
+  width: 100% !important;
+  height: auto;
+}
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
 }
