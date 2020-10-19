@@ -16,6 +16,10 @@
 
 }
 
+body {
+  overflow-x:hidden;
+}
+
 /* =============== NAV=============== */
 
 .container-fluid {
@@ -83,8 +87,18 @@
   background-color: var(--orange);
 }
 
+.btn-login:hover{
+  background-color: var(--red);
+  color: var(--white);
+}
+
 .btn-signin{
   background-color: var(--light-orange);
+}
+
+.btn-signin:hover{
+  background-color: var(--purple);
+  color: var(--white);
 }
 
 /* =============== FOOTER =============== */

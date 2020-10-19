@@ -2,18 +2,27 @@
 
 /*=============== BODY ===============*/
 
+.principal{
+  padding: 3%;
+}
+
 .btn-start{
     background-color: var(--purple);
-  }
-  
-  .carousel{
-    margin: 3%;
-  }
-  
-  .carousel-item{
-    width: 100% !important;
-    height: auto;
-  }
+}
+
+.btn-start:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.carousel{
+  margin-top: 3%;
+}
+   
+.carousel-item{
+  width: 100% !important;
+  height: auto;
+}
 
   .carousel-content {
     position: absolute;
@@ -61,7 +70,7 @@
   }
   
   .description{
-    margin: 3% 5% 3% 3%;
+    padding: 10%;
   }
   
   .description h2{
