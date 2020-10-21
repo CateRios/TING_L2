@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include partials/head %>
+    <link rel='stylesheet' href='/stylesheets/servicios.css' />
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!--Navbar-->
+        <%- include partials/navbar %>
+
+        <div class="row page-text">
+            <h2>
+                Lista de Usuarios registrados en la base de datos
+            </h2>
+        </div>
+
+
+        <!--Users-->
+        <div class="row users-display">
+            <ul>
+                <% results.forEach(function(r)){ %>
+                    <li><%- include partials/userCard %></li>
+                <% } %>
+            </ul>
+        </div>
+
+        <!--Footer-->
+        <br><%- include partials/footer %>
+
+    </div>
+</body>
+
+
+
+
+</html>
