@@ -7,7 +7,7 @@
 }
 
 .page-text h2{
-    margin-inline-start: 30%;
+    margin-inline-start: 20%;
     font-weight: initial;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -26,10 +26,6 @@
     text-decoration: underline;
 }
 
-.user-row-v1{
+.user-row{
     background-color: var(--light-orange);
-}
-
-.user-row-v2{
-    background-color: var(--orange);
 }
