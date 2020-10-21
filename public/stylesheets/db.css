@@ -14,9 +14,22 @@
     letter-spacing: 1px;
 }
 
-.services-display{
+.users-display{
     background-color: var(--green);
     padding: 3%;
     margin-top: 3%;
     margin-bottom: 0;
+}
+
+.users-display h2{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.user-row-v1{
+    background-color: var(--light-orange);
+}
+
+.user-row-v2{
+    background-color: var(--orange);
 }

@@ -1,6 +1,12 @@
-<div class="col-3"><img class="img-fluid" src="/images/userDummy.png" /></div>
-<div class="col-9">
-    <h2><%= r.name %> <=% r.surname</h2>
-    <p><%= r.email %></p>
-    <p><%= r.phoneNumber %></p>
+<% if(count%2 == 0) { %>
+<div class="row user-row-v1">
+    <%  }else{ %>
+<div class="row user-row-v1">
+    <% ; count = count + 1; } %>
+        <div class="col-3"><img class="img-fluid" src="/images/userDummy.png" /></div>
+        <div class="col-9">
+            <h2><%= r.name r.surname</h2>
+            <p><%= r.email %></p>
+                <p><%= r.phoneNumber %></p>
+        </div>
 </div>
