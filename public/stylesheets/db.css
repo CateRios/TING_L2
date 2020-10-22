@@ -37,7 +37,6 @@
     height: max-content;
     padding: 3%;
     border: solid 2px var(--red);
-    border-radius: 5%;
 }
 
 .user-row i{
