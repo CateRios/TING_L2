@@ -39,6 +39,10 @@
     border: solid 2px var(--red);
 }
 
+.user-row i{
+    color: var(--white);
+}
+
 .user-row img{
     border-radius: 20%;
     max-width: 100%;
@@ -49,26 +53,21 @@
 .btn-details{
     background-color: var(--green);
   }
-  
-  .btn-details:hover{
-    background-color: var(--light-orange);
-    color: var(--white);
-  }
 
   .btn-modify{
     background-color: var(--red);
-  }
-  
-  .btn-modify:hover{
-    background-color: var(--light-orange);
-    color: var(--white);
   }
 
   .btn-delete{
     background-color: var(--purple);
   }
   
-  .btn-delete:hover{
+  .btn-details:hover, .btn-modify:hover, .btn-delete:hover{
     background-color: var(--light-orange);
     color: var(--white);
+    border: solid 1px var(--red);
+    color: var(--red);
   }
+
+  
+  
