@@ -28,4 +28,5 @@
 
 .user-row{
     background-color: var(--light-orange);
+    width: 100%;
 }
