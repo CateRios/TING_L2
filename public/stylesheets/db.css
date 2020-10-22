@@ -22,9 +22,14 @@
 }
 
 .users-display h2{
-    font-style: italic;
     text-decoration: underline;
     color: var(--white);
+}
+
+.user-name{
+    font-style: italic;
+    color: var(--white);
+    letter-spacing: 3%;
 }
 
 .users-display p{
@@ -33,6 +38,6 @@
 
 .user-row{
     background-color: var(--purple);
-    max-width: 100%;
+    width: match-parent;
     padding: 3%;
 }
