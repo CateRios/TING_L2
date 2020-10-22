@@ -72,3 +72,7 @@
     background-color: var(--green);
     color: var(--white);
   }
+
+  .user-button{
+      margin: 5%;
+  }
