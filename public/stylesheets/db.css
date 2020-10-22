@@ -37,6 +37,7 @@
     height: max-content;
     padding: 3%;
     border: solid 2px var(--red);
+    border-radius: 10%;
 }
 
 .user-row i{
@@ -44,7 +45,6 @@
 }
 
 .user-row img{
-    border-radius: 20%;
     max-width: 100%;
     max-height: auto;
     border: solid 1px var(--black);
