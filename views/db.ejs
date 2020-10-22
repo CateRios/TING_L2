@@ -4,7 +4,7 @@
 <head>
     <%- include partials/head %>
     <title>RING-TING-TING</title>
-    <link rel='stylesheet' href='/stylesheets/db.css'/>
+    <link rel='stylesheet' href='/stylesheets/db.css' />
 </head>
 
 <body>
@@ -22,11 +22,13 @@
 
         <!--Users-->
         <div class="row users-display">
-            <ul>
-                <% results.forEach(function(r) { %>
-                <li><%- include partials/userCard %></li>
-                <% }); %>
-            </ul>
+            <div class="col-12">
+                <ul>
+                    <% results.forEach(function(r) { %>
+                    <li><%- include partials/userCard %></li>
+                    <% }); %>
+                </ul>
+            </div>
         </div>
 
         <!--Footer-->
