@@ -24,6 +24,8 @@
 .users-display h2{
     text-decoration: underline;
     color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .users-display p{
     color: var(--white);
@@ -38,7 +40,7 @@
 }
 
 .user-row img{
-    border-radius: 75%;
-    max-width: 75%;
+    border-radius: 20%;
+    max-width: 100%;
     max-height: auto;
 }
