@@ -25,19 +25,16 @@
     text-decoration: underline;
     color: var(--white);
 }
-
-.user-name{
-    font-style: italic;
-    letter-spacing: 3%;
-    text-decoration: none;
-}
-
 .users-display p{
     color: var(--white);
 }
 
 .user-row{
-    background-color: var(--purple);
+    background-color: var(--orange);
     width: match-parent;
     padding: 3%;
+}
+
+.user-row img{
+    border-radius: 100%;
 }
