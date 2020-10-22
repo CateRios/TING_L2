@@ -32,9 +32,13 @@
 .user-row{
     background-color: var(--orange);
     width: match-parent;
+    height: max-content;
     padding: 3%;
+    border: solid 2px var(--red);
 }
 
 .user-row img{
-    border-radius: 100%;
+    border-radius: 75%;
+    max-width: 75%;
+    max-height: auto;
 }
