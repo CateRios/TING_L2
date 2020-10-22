@@ -28,8 +28,8 @@
 
 .user-name{
     font-style: italic;
-    color: var(--white);
     letter-spacing: 3%;
+    text-decoration: none;
 }
 
 .users-display p{
