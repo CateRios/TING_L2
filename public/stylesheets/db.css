@@ -22,10 +22,10 @@
 }
 
 .users-display h2{
-    text-decoration: underline;
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-style: italic;
 }
 .users-display p{
     color: var(--white);
@@ -51,7 +51,7 @@
   }
   
   .btn-details:hover{
-    background-color: var(--red);
+    background-color: var(--light-orange);
     color: var(--white);
   }
 
@@ -60,7 +60,7 @@
   }
   
   .btn-modify:hover{
-    background-color: var(--purple);
+    background-color: var(--light-orange);
     color: var(--white);
   }
 
@@ -69,10 +69,6 @@
   }
   
   .btn-delete:hover{
-    background-color: var(--green);
+    background-color: var(--light-orange);
     color: var(--white);
-  }
-
-  .user-button{
-      margin: 5%;
   }
