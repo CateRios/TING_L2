@@ -45,3 +45,30 @@
     max-height: auto;
     border: solid 1px var(--black);
 }
+
+.btn-details{
+    background-color: var(--green);
+  }
+  
+  .btn-details:hover{
+    background-color: var(--red);
+    color: var(--white);
+  }
+
+  .btn-modify{
+    background-color: var(--red);
+  }
+  
+  .btn-modify:hover{
+    background-color: var(--purple);
+    color: var(--white);
+  }
+
+  .btn-delete{
+    background-color: var(--purple);
+  }
+  
+  .btn-delete:hover{
+    background-color: var(--green);
+    color: var(--white);
+  }
