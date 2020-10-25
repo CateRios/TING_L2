@@ -23,7 +23,6 @@ router.post('/insertUser', async (req, res) => {
         try {
             const client = await pool.connect();
             const result = await pool.query("INSERT INTO users_table values (1, '" + name + "', '" + password + "', '" + email + "')");
-            alert("Se ha añadido un nuevo usuario con éxito.");
             res.status(204).send();
             client.release();
         } catch (err) {
