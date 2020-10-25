@@ -24,7 +24,7 @@
         <div class="row users-display">
             <div class="col-12">
                 <ul>
-                    <% Object.keys(results).forEach(function(r) { %>
+                    <% results.forEach(function(r) { %>
                     <li><%- include partials/userCard %></li>
                     <% }); %>
                 </ul>

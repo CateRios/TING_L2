@@ -16,6 +16,7 @@ router.get('/', async(req, res) => {
         const client = await pool.connect();
         const result = await pool.query('SELECT * FROM users_table ORDER BY id DESC');
         const results = { 'results': (result) ? result.rows : null};
+        results = JSON.parse(results);
         res.render('db',{title: 'RING-TING-TING', results});
         client.release();
     }catch (err){
