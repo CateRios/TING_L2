@@ -22,7 +22,8 @@ router.post('/insertUser', async (req, res) => {
     if (name && email && password) {
         try {
             const client = await pool.connect();
-            const result = await pool.query("INSERT INTO users_table values (1, '" + name + "', '" + password + "', '" + email + "')");
+            const result = await pool.query("INSERT INTO users_table 
+            values (1, '" + name + "', '" + password + "', '" + email + "')");
             res.status(204).send();
             client.release();
         } catch (err) {
