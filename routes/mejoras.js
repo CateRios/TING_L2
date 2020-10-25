@@ -23,13 +23,13 @@ router.post('/insertUser', async (req, res) => {
         try {
             const client = await pool.connect();
             const result = await pool.query("INSERT INTO users_table values (1, '" + name + "', '" + password + "', '" + email + "')");
-            console.log(result.rows);
             client.release();
         } catch (err) {
             console.error(err);
             res.send('Error ' + err);
         }
     }
+    res.redirect('/db');
 
 });
 
