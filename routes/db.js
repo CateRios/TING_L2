@@ -5,6 +5,7 @@ const pool = new Pool({
         rejectUnauthorized: false
     }
 });
+const rp = require("request-promise");
 
 var express = require('express');
 var router = express.Router();
