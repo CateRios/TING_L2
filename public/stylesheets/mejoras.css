@@ -1,0 +1,29 @@
+@import "style.css";
+
+
+.user-form{
+    margin: 3% 30% 3% 30%;
+    font-size: 20px;
+}
+
+.form-buttons{
+    margin-inline-start: 20%;
+}
+
+.btn-register{
+    background-color: var(--red);
+    font-size: 15px;
+    margin-top: 3%;
+  }
+  .btn-clear{
+    background-color: var(--purple);
+    font-size: 15px;
+    margin-top: 3%;
+  }
+
+  .btn-register:hover, .btn-clear:hover{
+    background-color: var(--orange);
+    color: var(--white);
+  }
+
+  
