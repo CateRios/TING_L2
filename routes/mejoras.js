@@ -32,7 +32,7 @@ router.post('/insertUser', async (req, res) => {
             res.send('Error ' + err);
         }
     }
-    res.redirect('/db');
+    res.send('Fin de petición');
 
 });
 
